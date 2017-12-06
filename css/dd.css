@@ -1,0 +1,336 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Minimal - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+  
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+	background: url(../img/shutterstock_241701997.jpg) no-repeat center top;
+    background-size: 100vw;
+    background-position: center;
+    background-attachment: fixed;
+	
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+   	color:#FE5A1D;
+    font-family: 'Black Ops One', cursive;
+    font-weight: bold;
+    font-size:20px;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../img/darkcity) no-repeat center top;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+
+#headerwrap h1 {
+	margin-top: 150px;
+	color: white;
+	font-size: 70px;
+	font-weight: 100;
+  font-family: 'Black Ops One', cursive;
+}
+
+#headerwrap h3 {
+	color: #FF4500;
+	font-size: 30px;
+	font-weight: 100;
+    font-family: 'EB Garamond', serif;
+    font-style: oblique;
+}
+
+#headerwrap .logo {
+	text-align: left;
+	
+	margin-top: 30px;
+}
+
+
+/* Footer Wrap */
+
+#f {
+	
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center
+}
+#f {
+	
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center
+}
+
+#f h3 {
+	color: #FE5A1D;
+	font-size: 28px;
+	font-weight: 100;
+	letter-spacing: 1px;
+  font-family: 'Black Ops One', cursive;
+}
+
+#f i {
+	font-size: 8px;
+	color: #fff;
+    padding: 3px;
+}
+
+#f p {
+	
+  
+}
+#box1{
+  
+  background-color: black;
+  opacity:0.7;
+  padding:25px 25px 25px 25px;
+}
+
+#f img {
+	text-align: center;
+      width: 100%;
+     
+       padding-top: 30px;
+}
+.logoimg{
+  text-align: center;
+      width: 50%;
+      height:500px;
+       padding-top: 30px;
+}
+
+/* MENU CONF*/
+
+
+
+/* Push the body after clicking the menu button */
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:400,400italic);
+	
+	body {
+		
+	}
+	.wrapper {
+		margin: 50px auto;
+		
+	}
+	.container {
+		
+        background-position: center;
+        background-size: cover;
+		margin: 0 auto;
+		padding-bottom: 30px;
+			
+	}
+	header {
+		padding: 1px 20px;		/* 20px / 460px */
+		position: relative;
+		z-index: 1;
+	}
+	h1 {
+		color: white;
+		font-size: 22px;
+		font-weight: 400;
+		letter-spacing: 0.03em;
+		line-height: 1.3em;
+	}
+	h2 {
+		color: white;
+    	font-size: 22px;
+    	font-weight: bold;
+    	text-align: left;
+    	letter-spacing: 0.03em;
+    	line-height: 1em;
+    	color: #FE5A1D;
+    	font-family: 'Black Ops One', cursive;
+	}
+	p {
+		color: white;
+		font-family: 'Bangers', cursive;
+		text-align: left;
+		padding: 0 40px;		/* 20px / 460px */
+	}
+	
+	.jobs{
+		text-align:left;
+		font-family: 'Bangers', cursive;
+		font-size: 20px;
+		color:white; 
+	}
+#mc_embed_signup{
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	text-align: center;
+}
+/* phone media size */
+@media only screen and (max-width: 480px){
+body {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-image:url("../img/smokebackgroundresize");
+  background-size: 250vw;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+#f {
+	
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	
+}
+.mobilephotos{
+	height:230px;
+}
+}
+@media only screen and (max-width: 980px){
+body {
+  
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+	background: url(../img/shutterstock_241701997.jpg) no-repeat center top;
+    background-size: 400vw;
+    background-position: center;
+    background-attachment: fixed;
+	
+}
+#headerwrap h1 {
+	margin-top: 150px;
+	color: white;
+	font-size: 50px;
+	font-weight: 100;
+  font-family: 'Black Ops One', cursive;
+}
+#headerwrap .logo {
+	text-align: left;
+	margin-left: 0;
+	margin-top: 30px;
+}
+#f img {
+	text-align: center;
+  width: 100%;
+  height:200px;
+  
+}
+#f {
+	
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	
+}
+.wrapper {
+		margin: 50px auto;
+		width: 100%;	
+	}
+.flyer1{
+  
+  
+}
+.flyer2{
+  
+}
+.flyer3{
+  
+}
+.medialogo{
+  margin-top: 0%;
+  display: block;
+  position: relative;
+  top:24%;
+  
+}
+
+}
